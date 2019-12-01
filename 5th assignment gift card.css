@@ -1,0 +1,29 @@
+#birthdaycard{
+	background-color:#d8feff;
+	/*#6ce5ed;*/
+	/*#B3E5FC;*/
+	border:10px groove #804040b3;
+	border-right: 40px groove #804040b3;
+	border-top:40px groove #804040b3;
+	border-top-right-radius:40px;
+	border-top-left-radius:40px;
+	border-bottom-right-radius:40px;
+	text-align:center;
+	height:500px;
+	width:500px;
+	border-left:2px;
+	border-bottom:2px;
+	margin:180px 450px 100px;
+	padding:20px;
+
+}
+.signature{
+	text-align:right;
+}
+.a{
+	color:#9FA8DA;
+}
+strong{
+	font-size:large;
+	color:#F48FB1;
+}
