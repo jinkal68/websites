@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    /* border: 2px black solid; */
+    height: 1190px;
+    /* box-sizing: border-box; */
+}
+.head-div{
+    /* border: 2px red solid; */
+    /* box-sizing: border-box; */
+    margin: 0px;
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    background-color: gainsboro;
+    z-index: 10;
+}
+
+.head-div #Aminities {
+    /* border: 1px rgb(204, 105, 105) solid; */
+    float: left;
+    height: inherit;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.head-div #Para {
+    /* border: 1px rgb(15, 15, 143) solid; */
+    float: right;
+    height: inherit;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product-detail-div{
+    display: flex;
+    /* border: 2px lawngreen solid;
+    box-sizing: border-box; */
+    width: 601px;
+    height: 200px;
+    margin-left: 20px;
+    position: relative;
+    top: 48px;
+    
+}
+
+.dinning-image {
+    background-image: url('ami-01.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 601px;
+    height: 500px;
+    position: relative;
+}
+.dinning-header {
+    position: absolute;
+    border: 2px white solid;
+    box-sizing: border-box;
+    height: 400px;
+    width: 500px;
+    left: 50px;
+    top: 50px;
+    text-align: center; 
+}
+.dinning-header h2{
+    position: inherit;
+    top: 150px;
+    left: 150px;
+    margin: 0px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.dinning-offerings {
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    left: 50px;
+    top: 50px;
+    text-align: center; 
+    background-color: chartreuse;
+    color: black;
+    visibility: hidden;
+}
+
+.product-detail-div:hover .dinning-offerings{
+    visibility: visible;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+
