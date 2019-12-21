@@ -46,13 +46,107 @@
     body{
         margin: 0%;
         height: 1190px;
+        font-family: 'Roboto', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -font-smoothing: antialiased;
+    font-style: normal;
+    font-size: 14px;
+    color: #6f6f6f;
+    font-weight: 400;
+    line-height: 24px;
+    }
+    .color-theme{
+        color: #baa256;
+    }
+    .font-alt{
+        font-family: 'Abhaya Libre', serif;
+    }
+    .font-w-700 {
+        font-weight: 700;
+    }
+    .font-18 {
+        font-size: 18px;
+    }
+    .font-italic {
+        font-style: italic!important;
+    }
+    .line-height-20 {
+        line-height: 20px;
+    }
+    .m-5px-b{
+        margin-bottom:5px ;
+    }
+    .m-0px{
+        margin: 0px;
+    }
+    .p-60px-tb{
+        padding-top:60px ;
+        padding-bottom: 60px;
+    }
+    .p-40px-lr {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .list-style-2 {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .list-style-2 li {
+        position: relative;
+        padding: 0 0 0 12px;
+        margin: 0 0 9px 0;
+    }
+    .list-style-2 li:before {
+        content: "";
+        width: 5px;
+        height: 1px;
+        position: absolute;
+        top: 12px;
+        left: 0;
+        background-color: #baa256;
+    }
+    li {
+        font-family: 'Roboto', sans-serif;
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
     }
     
+    .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #fff;
+        box-shadow: 0 1px 27px rgba(0,0,0,.2);;
+    }
+    footer{
+        background: #fff;
+        box-shadow: 0 1px 27px rgba(0,0,0,.2);;
+    }
+    .container{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .main-div{
         margin: 0% 0% 0% 0%;
         box-sizing: border-box;
         height: 1190px;
         width: 100%;
+    }
+
+    .section{
+        padding: 40px 0;
     }
     
     .header-div{
@@ -68,7 +162,7 @@
     .header-div div h2{
         margin: 0 0 17px;
         font-size: 30px;
-        color: #baa256;
+        /* color: #baa256; */
         font-weight: 800;
         font-family: 'Abhaya Libre', serif;
     }
@@ -92,4 +186,39 @@
         margin-top: 0;
         margin-bottom: 1rem;
     }
+
+    .product-detail-div{
+        background-image: url('ami-01.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    }
+    .overlay{
+        position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    opacity: .6;
+    background: #000;
+    border: 2px solid #fff;
+    opacity: .9;
+    background: #fff;
+    }
+    .dinner-offering-h4{
+        position: absolute;
+        margin: auto;
+        left:0;
+        right: 0;
+        top: 50%;
+        opacity: 1;
+        transform: translateY(-50%);
+        color:#fff;
+        text-align: center;
+        font-size: 24px;
+        line-height: 40px;
+    }
+    
+    
 }
