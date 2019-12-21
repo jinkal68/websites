@@ -37,6 +37,7 @@ body{
    margin: 0%;
    top: 50%;
    left: 25%;
+   font-size:1vw;
    transform: translate(0, -50%);
 }
 
@@ -64,7 +65,7 @@ body{
         border: green 2px solid;
         box-sizing: border-box;
         position: relative;
-        overflow: auto;
+        /* overflow: auto; */
     }
     .header-div h2{
         position: absolute;
@@ -72,69 +73,19 @@ body{
          top: 50%;
          transform: translate(0, -50%);
         background-color: coral;
-        overflow: auto;
+        /* overflow: auto; */
     }
     .header-div p {
         position: absolute;
         margin: 0%;
-        font-size: 11px;
+        font-size: 7px;
         background-color: cornflowerblue;
        margin: 0%;
-       top: 50%;
-       left: 25%;
-       transform: translate(0, -50%);
-       overflow: auto;
-    }
-}
+       /* top: 50%; */
+       left: 45%;
+       /* font-size:2vw; */
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    body{
-        margin: 0%;
-        height: 1190px;
+       /* transform: translate(0, -50%); */
+       /* overflow: auto; */
     }
-    
-    .main-div{
-        margin: 0% 0% 0% 0%;
-        border: 5px black solid;
-        box-sizing: border-box;
-        height: 1190px;
-        float: left;
-        width: 100%;
-    }
-    
-    .header-div{
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        height: 5%;
-        border: green 2px solid;
-        box-sizing: border-box;
-        position: relative;
-        overflow: auto;
-    }
-    .header-div h2{
-        position: absolute;
-         margin: 0%;
-         top: 50%;
-         transform: translate(0, -50%);
-        background-color: coral;
-        overflow: auto;
-    }
-    .header-div p {
-        position: absolute;
-        margin: 0%;
-        font-size: 11px;
-        background-color: cornflowerblue;
-       margin: 0%;
-       top: 50%;
-       left: 25%;
-       transform: translate(0, -50%);
-       overflow: auto;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
 }
