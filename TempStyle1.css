@@ -1,0 +1,140 @@
+body{
+    margin: 0%;
+    height: 1190px;
+}
+
+.main-div{
+    margin: 0% 0% 0% 0%;
+    border: 5px black solid;
+    box-sizing: border-box;
+    height: 1190px;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.header-div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 5%;
+    border: blue 2px solid;
+    box-sizing: border-box;
+    position: relative;
+    overflow: auto;
+}
+.header-div h2{
+    position: absolute;
+     margin: 0%;
+     top: 50%;
+     transform: translate(0, -50%);
+    background-color: coral;
+}
+.header-div p {
+    position: absolute;
+    margin: 0%;
+    background-color: cornflowerblue;
+   margin: 0%;
+   top: 50%;
+   left: 25%;
+   transform: translate(0, -50%);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        margin: 0%;
+        height: 1190px;
+    }
+    
+    .main-div{
+        margin: 0% 0% 0% 0%;
+        border: 5px black solid;
+        box-sizing: border-box;
+        height: 1190px;
+        float: left;
+        width: 100%;
+    }
+    
+    .header-div{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: 5%;
+        border: green 2px solid;
+        box-sizing: border-box;
+        position: relative;
+        overflow: auto;
+    }
+    .header-div h2{
+        position: absolute;
+         margin: 0%;
+         top: 50%;
+         transform: translate(0, -50%);
+        background-color: coral;
+        overflow: auto;
+    }
+    .header-div p {
+        position: absolute;
+        margin: 0%;
+        font-size: 11px;
+        background-color: cornflowerblue;
+       margin: 0%;
+       top: 50%;
+       left: 25%;
+       transform: translate(0, -50%);
+       overflow: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        margin: 0%;
+        height: 1190px;
+    }
+    
+    .main-div{
+        margin: 0% 0% 0% 0%;
+        border: 5px black solid;
+        box-sizing: border-box;
+        height: 1190px;
+        float: left;
+        width: 100%;
+    }
+    
+    .header-div{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: 5%;
+        border: green 2px solid;
+        box-sizing: border-box;
+        position: relative;
+        overflow: auto;
+    }
+    .header-div h2{
+        position: absolute;
+         margin: 0%;
+         top: 50%;
+         transform: translate(0, -50%);
+        background-color: coral;
+        overflow: auto;
+    }
+    .header-div p {
+        position: absolute;
+        margin: 0%;
+        font-size: 11px;
+        background-color: cornflowerblue;
+       margin: 0%;
+       top: 50%;
+       left: 25%;
+       transform: translate(0, -50%);
+       overflow: auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
